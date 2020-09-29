@@ -14,6 +14,7 @@
         <module>service-login8001</module>
         <module>service-login8002</module>
         <module>consumer-feign-pay81</module>
+        <module>gateway-zuul</module>
     </modules>
     <packaging>pom</packaging>
 

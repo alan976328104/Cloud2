@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name="service-login")
 public interface FeignService {
     @GetMapping("user/login")
-    String login(@RequestParam("name") String name,@RequestParam("pwd") String pwd);
 
+    String login(@RequestParam("name") String name,@RequestParam("pwd") String pwd);
 }

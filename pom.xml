@@ -15,6 +15,7 @@
         <module>service-login8002</module>
         <module>consumer-feign-pay81</module>
         <module>gateway-zuul</module>
+        <module>consumers-hystrix-pay80</module>
     </modules>
     <packaging>pom</packaging>
 
